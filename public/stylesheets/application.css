@@ -1,0 +1,19 @@
+body {
+  background-color: aquamarine;
+
+}
+
+/* #grogu {} add classes to override general elements e.g. p selectors, etc. Last one wins in CSS */
+
+p {
+  color: purple;
+  font-size: 30px;
+}
+.smaller {
+  color: purple;
+  font-size: 15px;
+}
+
+h1.header {
+  font-size: larger;
+}
